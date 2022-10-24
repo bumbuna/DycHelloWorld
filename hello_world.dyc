@@ -1,0 +1,13 @@
+# Jacob Bumbuna <dyc@devbumbuna.com>
+# https://devbumbuna.com/licence
+# Copyright 2022
+
+# A simple script to get started with dyc.
+
+include io #println
+
+# script entry point
+var main = (argc, argv) -> {
+    println("Hello World!");
+    return 0;
+}
